@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ClaendarNotes/static/css/main.58954b19.css",
-    "main.js": "/ClaendarNotes/static/js/main.5dd8fbab.js",
+    "main.js": "/ClaendarNotes/static/js/main.29cdcd11.js",
     "static/js/787.f4b9e84d.chunk.js": "/ClaendarNotes/static/js/787.f4b9e84d.chunk.js",
     "static/media/icomoon.eot?zejfgy": "/ClaendarNotes/static/media/icomoon.b5ba26b879984d0b9853.eot",
     "static/media/icomoon.woff?zejfgy": "/ClaendarNotes/static/media/icomoon.3a0e51441b0dcc03efdd.woff",
@@ -9,11 +9,11 @@
     "static/media/icomoon.svg?zejfgy": "/ClaendarNotes/static/media/icomoon.17572853dbc3e3945cb2.svg",
     "index.html": "/ClaendarNotes/index.html",
     "main.58954b19.css.map": "/ClaendarNotes/static/css/main.58954b19.css.map",
-    "main.5dd8fbab.js.map": "/ClaendarNotes/static/js/main.5dd8fbab.js.map",
+    "main.29cdcd11.js.map": "/ClaendarNotes/static/js/main.29cdcd11.js.map",
     "787.f4b9e84d.chunk.js.map": "/ClaendarNotes/static/js/787.f4b9e84d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58954b19.css",
-    "static/js/main.5dd8fbab.js"
+    "static/js/main.29cdcd11.js"
   ]
 }
