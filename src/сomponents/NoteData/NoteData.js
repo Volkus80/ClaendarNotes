@@ -8,16 +8,17 @@ const Container = styled.div`
     width: 90%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 `;
 
 const Text = styled.p`
-    display: inline-block;
+    display: inline;
     color: white;
     font-size: 1.5rem;
-    text-align: center;
     height: 2rem;
+    text-align: flex-start;
     line-height: 2rem;
+    hyphens: auto;
 `;
 
 const CloseButton = styled.span`

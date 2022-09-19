@@ -16,6 +16,7 @@ const Container = styled.div`
 
 const Note = styled.div`
     position: relative;
+    padding-top: 20px;
     width: 80vw;
     min-height: 80vh;
     background-color: ${props => props.color};
@@ -23,7 +24,7 @@ const Note = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+       
 `;
 
 const Close = styled.div`
@@ -31,7 +32,7 @@ const Close = styled.div`
     height: 1.5rem;
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 5px;
     text-align: center;
     line-height: 16px;
     border: solid white 2px;
@@ -44,7 +45,7 @@ const Close = styled.div`
 const DataContainer = styled.div`
     display: flex;
     align-items: center;
-    margin: 5px 0;    
+    margin: 10px 0;    
 `;
 const Data = styled.p`
     color: #fff;
