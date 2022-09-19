@@ -78,8 +78,8 @@ export default function Calendar() {
     function increaseYear() {
         let count = yearValue;
         ++count;
-        setDataYear(count);
         setYearValue(count);
+        setDataYear(count);
     }
     
     function decreaseMonth() {
@@ -97,16 +97,16 @@ export default function Calendar() {
     function decreaseYear() {
         let count = yearValue;
         count--;
-        setDataYear(count);
         setYearValue(count);
+        setDataYear(count);
     }
     function yearEnterHandler(e) {
         if (e.key === 'Enter' && yearValue.trim().length > 0) {
             setDataYear(yearValue);
-        } else {
+        } else if (e.key === 'Enter' && yearValue.trim().length === 0) {
             setYearValue(date.getFullYear());
             setDataYear(date.getFullYear());
-        }
+        } 
     }
     function changeHandler(e) {
         setYearValue(e.target.value);
